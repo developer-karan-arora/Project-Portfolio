@@ -1,0 +1,12 @@
+.animate-text-bar{
+    /* background-color: red; */
+  animation-name: example;
+  animation-duration: 0.8s;
+  animation-play-state: running;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite
+}
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

@@ -1,0 +1,110 @@
+.left-section{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(57, 61, 63);
+}
+.left-section > div {
+    margin: 35px 0;
+}
+.left-section img{
+    border: 3px solid rgb(248, 149, 35);
+    border-radius: 50%;
+    min-height: 100px;
+    min-width: 100px;
+    color: rgb(255, 255, 255);
+}
+.left-section ul {
+list-style-type: none ;
+}
+.left-section ul  li {
+    background-color: #4f5861;
+    width: 250px;
+    
+    padding: 8px;
+    margin: 6px;
+    border-radius: 18px;
+}
+.left-section ul  li:hover{
+    background-color: rgb(250, 156, 49);
+    color: rgb(117, 66, 0);
+    font-weight: 500;
+}
+.left-name{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.left-carrer-container{
+    padding-top: 6px;
+}
+.left-carrer{
+    color: rgb(182, 175, 175);
+}
+.horizontal-rule-left{
+    width: 50%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(250, 156, 49);
+    outline: none;
+    border: none;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar {
+      display: block;
+      position: fixed;
+      background-color: #313131;
+      width: 100%;
+      padding: 10px;
+      text-align: end;
+    }
+    .p-container > div {
+      height: 100%;
+      display: block;
+      width: 100vw;
+    }
+  
+    .left-section {
+      display: none !important;
+    }
+
+    aside {
+      transform: translateX(-300px);
+      transition: 0.5s ease-in-out;
+      position: absolute;
+      width: 280px;
+      height: 100vh;
+      background-color: #313131;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      text-align: center;
+    }
+  
+    aside img {
+      margin-top: 20px;
+      border: 3px solid rgb(248, 149, 35);
+      border-radius: 50%;
+      min-height: 100px;
+      min-width: 100px;
+      color: rgb(255, 255, 255);
+    }
+    aside ul {
+      list-style-type: none;
+    }
+    aside ul li {
+      background-color: #4f5861;
+      width: 200px;
+      padding: 8px;
+      margin: 6px;
+      border-radius: 18px;
+    }
+    aside ul li:hover {
+      background-color: rgb(250, 156, 49);
+      color: rgb(117, 66, 0);
+      font-weight: 500;
+    }
+  }
