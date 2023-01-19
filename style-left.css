@@ -51,7 +51,12 @@ list-style-type: none ;
     align-items: center;
     margin: auto;
 }
-
+.navbar {
+  display: none;
+}
+aside{
+  display: none;
+}
 @media screen and (max-width: 850px) {
     .navbar {
       display: block;
@@ -70,8 +75,11 @@ list-style-type: none ;
     .left-section {
       display: none !important;
     }
-
+    .navbar{
+      display: block;
+    }
     aside {
+      display: block !important;
       transform: translateX(-300px);
       transition: 0.5s ease-in-out;
       position: absolute;
@@ -80,7 +88,7 @@ list-style-type: none ;
       background-color: #313131;
       display: flex;
       justify-content: center;
-      /* align-items: center; */
+      align-items: center;
       text-align: center;
     }
   
@@ -94,6 +102,9 @@ list-style-type: none ;
     }
     aside ul {
       list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     aside ul li {
       background-color: #4f5861;
