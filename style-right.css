@@ -33,6 +33,7 @@
   max-height: 90vh;
   overflow-y: scroll;
 }
+/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
